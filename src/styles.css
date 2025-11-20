@@ -1,0 +1,35 @@
+:root {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #0f172a;
+  background: #f8fafc;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 32px 16px 48px;
+  box-sizing: border-box;
+}
+
+.header {
+  max-width: 720px;
+  text-align: center;
+  line-height: 1.6;
+  color: #334155;
+}
+
+.chart-wrapper {
+  width: min(900px, 100%);
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  padding: 16px;
+  box-sizing: border-box;
+}
